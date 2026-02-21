@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مطعم حمو</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff7f0;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #d35400;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #e67e22;
+      font-size: 28px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      width: 250px;
+      border-radius: 15px;
+      margin: 15px 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background-color: #ffe6cc;
+      margin: 10px auto;
+      padding: 10px;
+      width: 200px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    button {
+      background-color: #d35400;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #e67e22;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>مطعم حمو</h1>
+  <p>أهلاً بيك! ده نموذج لموقع المطعم التجريبي</p>
+
+  <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" 
+       alt="طبق لذيذ">
+
+  <h2>قائمة الطعام</h2>
+  <ul>
+    <li>بيتزا مارجريتا</li>
+    <li>فاهيتا دجاج</li>
+    <li>باستا ألفريدو</li>
+    <li>سلطة سيزر</li>
+  </ul>
+
+  <button onclick="orderNow()">اطلب الآن</button>
+
+  <script>
+    function orderNow() {
+      alert("شكراً! جاري تجهيز طلبك (تجريبي)");
+    }
+  </script>
+
+</body>
+</html>
